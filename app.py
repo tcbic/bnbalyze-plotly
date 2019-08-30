@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/index')
 def index():
-    return render_template('berlin_airbnb2.html')
+    return render_template('berlin_airbnb.html')
 
 if __name__ == '__main__':
     app.run(port=4500, debug=True)
